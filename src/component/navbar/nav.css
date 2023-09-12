@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(241, 231, 231);
+    box-shadow: 5px 5px 5px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 30px;
+    width: 150px;
+}
+.logo:hover{
+    box-shadow: 5px 5px 5px lightgray;
+}
+.First{
+    margin-left: 40px;
+}
+.Second{
+    width: auto;
+}
+.navlinks{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navlinks:hover{
+    color: purple;
+    text-decoration: overline;
+}
+.Third{
+    margin-right: 40px;
+}
+.navicons{
+    margin-left: 20px;
+}
+.navicons:hover{
+    padding: 10px;
+    background-color: rgb(243, 138, 243);
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
